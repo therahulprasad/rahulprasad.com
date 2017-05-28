@@ -1,0 +1,98 @@
+@import "normalize.scss";
+
+html, body { height: 100%; }
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    font-family: "Times New Roman", sans-serif, arial;
+    color: #21211f;
+}
+
+.mycontainer {
+  width: 800px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  #sticker-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+}
+#sticker {
+  width: 250px;
+  height: auto;
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  &.main {
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  &.actions {
+    margin-bottom: 20px;
+    justify-content: center;
+
+    .action {
+      width: 25px;
+      height: 25px;
+      margin: 10px;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
+
+#details-container{
+  h1.name {
+    font-size: 5.5em;
+    font-family: 'Alegreya Sans', sans-serif, cursive;
+    font-weight: bold;
+    margin-bottom: 0px;
+    color: black;
+  }
+
+  h2.designation {
+    font-size: 1.5em;
+    margin: 0 0 5px 0;
+    color: #555;
+    font-weight: normal;
+  }
+
+  .description {
+    text-align: center;
+  }
+}
+
+
+.button {
+    border: 1px solid #c669ff;
+    border-radius: .4rem;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1em;
+    padding: 0.6rem 2rem;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #c669ff;
+    text-transform: uppercase;
+
+  &:hover {
+    box-shadow: 0 0 2px #c669ff;
+    color: #9b4dca;
+  }
+}
