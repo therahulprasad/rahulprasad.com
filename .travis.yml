@@ -1,9 +1,9 @@
-language: node_js
-node_js:
-- '6'
-before_script:
-- npm install -g gulp
-script: gulp
+#language: node_js
+#node_js:
+#- '6'
+#before_script:
+#- npm install -g gulp
+#script: gulp
 deploy:
   provider: gcs
   access_key_id: GOOGYUJN22TLHJKNW2ZJ
