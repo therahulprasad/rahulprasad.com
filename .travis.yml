@@ -9,8 +9,8 @@ deploy:
   access_key_id: GOOGYUJN22TLHJKNW2ZJ
   secret_access_key:
     secure: wuwzAT5SHKpz9X2QwNVWy4Wa33vV8yrWDjQc8eDuHTUJb3sIKvxKy6znWyqH1416sigmbwT1D1ZA8w0TcqFd7G8FJAd0SFZZPErasqVHp/KswtzrFw2QQGo03DYHUTmcoyvP8V6hhCQ/yQK87mhRPKyjbxFdQERXizXpkpGem+dVS8FKL9zWNyurdylsnIi6Xc6QcCa7JNJpduOiS+3Xty3UNxRSYJb8i5nJhK5Z0kDUQukPHGjWLWvHWnTwnDRV8KGje55A+cZssToRAYS2QQFqFRAfpKc0nqgReYadKvximHp50bkW/gvOHt1ils88JqgDegqi/ua689pVxemOGlgQtoyTyRJhwb0bsmUR3Kqe1f8XxbpVZfjy2z/g732zBMg3A70snZgOEK9iYTHXAfI61KAh3lbOvbwAIZ55m/FMB0jBniEe8CGAYDkIJksq9D+evO0HjUshwGneTdU7GDuBBXyXj1ISM+osuwVqOmWHtcVZXQ50Z34XfslTB3c1FPD1Qs3y0dyTMRHdEYmBZIUREYV5HdewatrgKOrBzhNuT5K/biJjFHNxUrqm094YvKCJRQGw2EIdHS3fcjTMl9U6XkH/nSl3A+z5+2zZVDaJuVk5ky0HO89DT5ehkN1HopC2S4anSxY43CcKnJRpCayCM90IY2fas+x6E1oLjo0=
-  bucket: auto-deploy-testing
-#  local-dir: dist
+  bucket: www.rahulprasad.com
+  local-dir: dist
   on:
     repo: therahulprasad/rahulprasad.com
   skip_cleanup: true
