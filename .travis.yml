@@ -13,3 +13,4 @@ deploy:
   local-dir: dist
   on:
     repo: therahulprasad/rahulprasad.com
+  skip_cleanup: true
