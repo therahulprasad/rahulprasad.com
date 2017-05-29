@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/therahulprasad/rahulprasad.com.svg?branch=master)](https://travis-ci.org/therahulprasad/rahulprasad.com)
+
 ## Installation
 1. `npm install` will install all packages
 
