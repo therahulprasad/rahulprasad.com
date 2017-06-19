@@ -13,6 +13,9 @@ body {
 @media only screen and (max-width : 860px) {
   .mycontainer {
     width: 100%;
+    #details-container {
+      margin-bottom: 20px;
+    }
   }
 }
 @media only screen and (min-width : 861px) {

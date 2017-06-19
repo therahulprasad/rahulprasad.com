@@ -33,6 +33,7 @@
 1. Mobile view & responsiveness
 1. Write script to auto upload to google cloud
 1. Add google analytics
+1. Take care of spacing in mobile layout
 
 ## Documents
 1. [Gulp Live Reload](https://scotch.io/tutorials/a-quick-guide-to-using-livereload-with-gulp)
