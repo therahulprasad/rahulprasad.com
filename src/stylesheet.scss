@@ -7,12 +7,35 @@ body {
     flex-direction: column;
     align-items: center;
     font-size: 12px;
-    font-family: "Times New Roman", sans-serif, arial;
+    font-family: sans-serif, arial;
     color: #21211f;
 }
+@media only screen and (max-width : 860px) {
+  .mycontainer {
+    width: 100%;
+  }
+}
+@media only screen and (min-width : 861px) {
+  .mycontainer {
+    width: 800px;
+
+    .row {
+      &.main {
+        flex-direction: row;
+        align-items: flex-end;
+
+        #details-container {
+          h1 {
+            font-size: 5.5em;
+          }
+        }
+      }
+    }
+  }
+}
+
 
 .mycontainer {
-  width: 800px;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -37,8 +60,9 @@ body {
   display: flex;
   flex-direction: row;
   &.main {
-    align-items: flex-end;
     justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
   }
   &.actions {
     margin-bottom: 20px;
@@ -59,15 +83,16 @@ body {
 
 #details-container{
   h1.name {
-    font-size: 5.5em;
-    font-family: 'Alegreya Sans', sans-serif, cursive;
+    text-align: center;
+    font-size: 4em;
+    font-family: 'Titillium Web', sans-serif, cursive;
     font-weight: bold;
     margin-bottom: 0px;
     color: black;
   }
 
   h2.designation {
-    font-size: 1.5em;
+    font-size: 1.4em;
     margin: 0 0 5px 0;
     color: #555;
     font-weight: normal;
