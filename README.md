@@ -4,13 +4,13 @@
 1. `npm install` will install all packages
 
 ## Development
-1. `gulp watch` to compile scss in runtime
+-  `gulp watch` to compile scss in runtime
 
 ## Build
-1. `gulp` to build into project `dist` folder
+-  `gulp` to build into project `dist` folder
 
 ## Note
-1. Images will be embedded into html use `!inline` in img tag to prevent this
+-  Images will be embedded into html use `!inline` in img tag to prevent this
 
 ## Todo
 1. Make SEO Friendly

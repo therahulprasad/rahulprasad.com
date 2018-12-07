@@ -64,6 +64,6 @@ gulp.task('css-dev', function() {
 gulp.task('watch', function() {
     // Generate development css
     gulp.start('css-dev');
-    livereload.listen();
+    livereload.listen({port: 5678});
     gulp.watch('src/*.scss', ['css-dev'])
 });

@@ -101,6 +101,16 @@ body {
     font-weight: normal;
   }
 
+  h2.company {
+    margin-top: 0;    
+
+    a {
+      color: #555;
+      font-weight: 400;
+      text-decoration: none;
+    }
+  }
+
   .description {
     text-align: center;
   }
